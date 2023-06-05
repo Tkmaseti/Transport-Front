@@ -1,0 +1,28 @@
+.container {
+    position: relative;
+    width: 1450px;
+    height: 100vh;
+    min-height: 30vh;
+    padding: 5rem 10px;
+    background: linear-gradient(to bottom, #0e77dab7 0%, #0c2d488c 75%, #0c2d4870 100%), url("https://img.freepik.com/free-vector/blue-copy-space-digital-background_23-2148821698.jpg?w=900&t=st=1685968977~exp=1685969577~hmac=bb39ec6f66a343cbd72579400392ebe7c0356ad5f81e78891da8b16f7d1a13d6");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    margin-left: 0px;
+  }
+
+  .container h1 {
+    margin-left: 20%;
+    font-weight: bold;
+    font-size: 4em;
+
+
+    color: #BFD7ED;
+  }
+#icon {
+    width: 45px;
+    height: 50px;
+    margin-left: 50%;
+    margin-top: 30px;
+  }
