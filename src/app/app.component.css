@@ -1,6 +1,5 @@
 .con {
-    display: inline-flex;
-
+    display: flex;
 }
 .nav {
     height: 100vh;
@@ -8,10 +7,12 @@
     background: #0C2D48;
     transition: 1.5s;
     overflow: hidden;
+
     
 }
 .nav:hover{
-    width: 300px; z-index:1;
+    width: 350px; 
+    z-index:1;
 }
 .con::-webkit-scrollbar{
     display: none;
@@ -20,11 +21,32 @@
 .container {
     margin: 0;
     padding: 0;
-    position: absolute;
-    margin-left: 90px;
-    /* width: 1600px; */
-    background: black;
+    width: 100%;
+    z-index: 0;
+    overflow: hidden;
+}
+
+
+.custom-shape-divider-bottom-1686045065 {
     z-index: -1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1686045065 svg {
+    position: relative;
+    display: block;
+    width: calc(225% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-bottom-1686045065 .shape-fill {
+    fill: #0C2D48;
 }
 
 

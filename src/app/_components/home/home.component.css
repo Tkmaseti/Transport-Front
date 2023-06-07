@@ -3,26 +3,81 @@
     width: 1450px;
     height: 100vh;
     min-height: 30vh;
-    padding: 5rem 10px;
-    background: linear-gradient(to bottom, #0e77dab7 0%, #0c2d488c 75%, #0c2d4870 100%), url("https://img.freepik.com/free-vector/blue-copy-space-digital-background_23-2148821698.jpg?w=900&t=st=1685968977~exp=1685969577~hmac=bb39ec6f66a343cbd72579400392ebe7c0356ad5f81e78891da8b16f7d1a13d6");
+    padding: 2rem 0px;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size: cover;
     margin-left: 0px;
+    display: flex;
   }
 
   .container h1 {
-    margin-left: 20%;
+    margin-left: 50px;
+    position: absolute;
+    top: 10px;
     font-weight: bold;
-    font-size: 4em;
+    font-size: 3em;
+    color: var(--base-color);
+  }
+.slogan {
+  margin-left: 50px;
+  margin-top: 90px;
+}
+.slogan p {
+  font-size: xx-large;
+
+}
+
+.motto {
+  width: 300px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.motto p {
+  font-size: large;
+}
 
 
-    color: #BFD7ED;
-  }
-#icon {
-    width: 45px;
-    height: 50px;
-    margin-left: 50%;
-    margin-top: 30px;
-  }
+.left {
+  width: 50%;
+  height: 89.5vh;
+  padding: 2em 3em;
+}
+.right {
+  width: 50%;
+  height: 89.5vh;
+  padding: 3em 2em;
+  overflow: hidden;
+}
+.right img {
+  width: 300px;
+  height: 600px;
+}
+
+
+.button {
+  font-size: larger;
+  color: var(--secondary-color);
+  border: 1px solid var(--fourth-color);
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 40px;
+  margin-top: 60px;
+  box-shadow: 0px 0px 10px 10px var(--fourth-color);
+  transition: 1s;
+}
+.button:hover {
+  background: var(--base-color);
+  color: var(--base-white);
+}
+
+a {
+  text-decoration: none;
+  
+  
+}

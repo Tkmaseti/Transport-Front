@@ -3,3 +3,15 @@
     margin: 0;
     padding: 0;
 }
+:root {
+    --base-color: #0c2d48;
+    --secondary-color: #0c2d48f8;
+    --third-color: #003b734d;
+    --fourth-color: #0c2d4870;
+    --base-color-light: #2E2EFF;
+    --base-white: #ffffff;
+    --base-black: #000000;
+    --blue-light: #b6b6ee;
+    --herr: "Herr Von Muellerhoff", cursive;
+    --quicksand: "Quicksand", sans-serif;
+  }
