@@ -10,10 +10,10 @@
 
     
 }
-.nav:hover{
+/* .nav:hover{
     width: 350px; 
     z-index:1;
-}
+} */
 .con::-webkit-scrollbar{
     display: none;
 }

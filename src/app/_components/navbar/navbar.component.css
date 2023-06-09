@@ -19,8 +19,8 @@
     
 }
 .grp:hover{
-    background: #145DA0;
-    color: #BFD7ED;
+    background: var(--base-color-light);
+    color: var(--blue-light);
     height: 50px;
     padding: 5px 0px;
     align-items: center;

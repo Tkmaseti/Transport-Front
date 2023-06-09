@@ -26,16 +26,17 @@
 }
 .slogan p {
   font-size: xx-large;
+  font-weight: bolder;
 
 }
 
 .motto {
   width: 300px;
   margin-left: 50px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .motto p {
-  font-size: large;
+  font-size: larger;
 }
 
 
@@ -66,7 +67,7 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  margin-left: 40px;
+  margin-left: 50px;
   margin-top: 60px;
   box-shadow: 0px 0px 10px 10px var(--fourth-color);
   transition: 1s;
@@ -74,6 +75,8 @@
 .button:hover {
   background: var(--base-color);
   color: var(--base-white);
+  width: 200px;
+  height: 40px;
 }
 
 a {
