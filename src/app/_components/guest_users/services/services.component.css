@@ -8,7 +8,7 @@
     color: var(--base-color);
 }
 .content-p {
-    margin-left: 32%;
+    margin-left: 25%;
     color: var(--base-color);
 }
 .button {
@@ -23,7 +23,7 @@
 }
 .cards {
     display: flex;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 10%;
 }
 .card {
